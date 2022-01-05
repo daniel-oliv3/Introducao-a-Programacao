@@ -1,0 +1,15 @@
+Algoritmo_Questão_03_[Lista 4.1]
+
+	declare a:real;
+	declare cont,cont2:real;
+
+	a<-0;  cont<-1;  cont2<-1;
+
+	para cont de 1 ate 25 faca
+		a<- a+cont2/cont;
+		
+		cont<-cont+1;
+		cont2<-cont2+2;
+	fimpara
+	escreva( " O resultado e:  ",a );
+	fimalgoritmo

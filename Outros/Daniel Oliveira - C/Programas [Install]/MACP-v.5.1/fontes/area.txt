@@ -1,0 +1,13 @@
+variaveis
+	base, altura, area: real;
+
+inicio
+	escrever 'Informe a base do retangulo';
+	ler base;
+	escrever 'Informe a base do altura';
+	ler altura;
+
+	area <- base * altura;
+	escrever 'Area = ';
+	escrever area;
+fim.

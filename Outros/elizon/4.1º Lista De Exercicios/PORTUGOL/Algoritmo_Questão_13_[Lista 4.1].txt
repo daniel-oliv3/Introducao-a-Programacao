@@ -1,0 +1,22 @@
+Algoritmo_Questão_13_[Lista 4.1]
+
+	declare n,r,i,k,fat,cont:inteiro;
+	declare e:real;
+
+	escreva( " Informe O Numero De Termos: " );
+	leia(n);
+	escreva( " Informe Um Numero: " );
+	leia(r);
+	se(n>0 e r>0) entao
+		fat<-1;
+		para i de 2 ate n faca
+		fat<-fat*k;
+		fimpara
+		e<-e+(e**cont)/fat;
+		cont<-cont+1;
+		fimpara
+		escreva( " O resultado Sera:  ",e+1 );
+		senao
+		escreva( " Informe Um Valor Positvo: " );
+		fimse
+		fimalgoritmo

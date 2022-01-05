@@ -1,0 +1,23 @@
+Dev-C++ é um Ambiente de Desenvolvimento Integrado (IDE - Integrated Development Environment) para programação na linguagem C/C++. Ele usa a porta Mingw do GCC (GNU Compiler Collection) como seu compilador. O programa cria executáveis nativas no Win32, console ou GUI. Dev-C++ também pode ser usado juntamente com o Cygwin. Dev-C++ é gratuito e de código aberto e é totalmente escrito em Delphi, que ironia não?
+
+Lista de Recursos:
+
+    Suporte a compiladores baseados em GCC.
+    Depuração integrada (usando GDB).
+    Navegador de classes.
+    Recurso de completar códigos.
+    Navegador de depuração de variáveis.
+    Gerenciador de Projetos.
+    Editor com destaque de sintaxe personalizável.
+    Suporte a modelos para criação dos seus próprios projetos.
+    Edição e compilação de arquivos de recursos.
+    Gerenciador de Ferramentas.
+    Suporte a impressão.
+    Facilidades de encontrar e substituir.
+    Gerenciador de pacotes para facilitar a instalação e adição de bibliotecas.
+    Suporte CVS.
+    Lista de coisas a fazer.
+    Janela de CPU.
+
+
+Leia mais em: http://www.baixaki.com.br/download/dev-c-.htm#ixzz3RXdbjnk6

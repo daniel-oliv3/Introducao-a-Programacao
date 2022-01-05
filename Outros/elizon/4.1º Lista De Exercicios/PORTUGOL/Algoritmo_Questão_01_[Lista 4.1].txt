@@ -1,0 +1,20 @@
+Algoritmo_Questão_01_[Lista 4.1]
+
+	declare n,i,cont:inteiro;
+	declare s:real;
+
+	s<-0;cont<-0;
+
+	escreva("Informe um numero: ");
+	leia(n);
+	se(n>0)entao
+	cont<-n;
+	para i<-n ate 1 passo -1 faca
+	s<-s+cont/n;
+	cont<-cont-1;
+	fimpara
+	escreva("O resultado de S Sera : ",s);
+	fimse
+	fimalgoritmo
+	
+	

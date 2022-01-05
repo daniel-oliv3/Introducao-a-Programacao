@@ -1,0 +1,22 @@
+Algoritmo_Questão_10_[Lista 4.1]
+	
+	declare n,x,cont,fat,i:inteiro
+	declare c:real
+	c<-0; cont<-2;
+	
+	escreva( " Informe os valores: " );
+	leia(n,x);
+	
+	se(n>0 e x>0)entao
+	para i de n ate 1 passo -1 faca
+	fat<-1;
+	para k de 1 ate cont faca
+	fat<-fat*k;
+	fimpara
+	c<-c+(x**cont)/fat;
+	cont<-cont+2;
+	fimpara
+	escreva("O resultado sera: ",c+1);
+	fimse
+	fimalgoritmo
+	

@@ -1,0 +1,36 @@
+Algoritmo_Questão_02_[Lista 4.1]
+
+	declare n,i : inteiro;
+	declare op:caracter;
+
+	escreva( " Informe Um Valor: " );
+	leia(n);
+	escreva(  " Informe A operacao:  " );
+	leia(op);
+	se(n>0)entao
+	escolha(op)
+	caso '+':
+		para i de 1 ate 10 faca
+		escreva( n,"+",i ,"=",n+i);
+		fimpara
+	caso '-':
+		para i de 1 ate 10 faca
+		escreva(n+i,"-",n,"=",i);
+		fimpara
+	caso '*':
+		para i de 1 ate 10 faca
+		escreva(n,"x",i ,"=",n*i);
+		fimpara
+	caso '/':
+		para i de 1 ate 10 faca
+		escreva(n*i," : ",n ,"=",i);
+		fimpara
+	senao
+		escreva( " Operador Invalido... " );
+	fimescolha
+	senao
+		escreva( " Informe Numero Positivo: " );
+	fimse
+	fimalgoritmo
+	
+	

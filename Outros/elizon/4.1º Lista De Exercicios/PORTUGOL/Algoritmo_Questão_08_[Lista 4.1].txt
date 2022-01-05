@@ -1,0 +1,24 @@
+Algoritmo_Questão_08_[Lista 4.1]
+
+	declare n,y,cont,i:inteiro;
+	declare s:real;
+	
+	cont<-2;  s<-0;
+	
+	escreva( " Informe os valores: " );
+	leia(n,y);
+
+	se (n>0 e y>0) entao
+
+	para i <- 2 ate n passo 1 faca
+	s<-s+(y**cont)/cont;
+	cont<-cont+2;
+	fimpara
+	escreva( " Resultado Da Série:  " , serie+1 )
+	senao se(n=0)
+	escreva( " Resultado Da Série:  " , serie)
+	senao
+	escreva( " Somente positivos " )
+	fimse
+	fimse
+	fimalgoritmo

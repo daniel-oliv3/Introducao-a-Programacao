@@ -1,0 +1,14 @@
+variaveis
+	senha:cadeia;
+	senha_correta: cadeia;
+inicio
+	escrever 'Qual é a senha?';
+	ler senha;
+	senha_correta <- '12345';
+
+	se senha=senha_correta entao
+		escrever 'voce digitou a senha CORRETA!'
+	senao
+		escrever 'voce digitou a senha ERRADA!';
+
+fim.

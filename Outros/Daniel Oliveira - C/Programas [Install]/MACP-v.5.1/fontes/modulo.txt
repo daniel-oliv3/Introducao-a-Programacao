@@ -1,0 +1,33 @@
+variaveis
+	a: inteiro;
+	b: inteiro;
+	soma:inteiro;
+	calcula_area:modulo;
+
+inicio
+	escrever 'Qual o valor do lado A do retangulo?';
+	ler a;
+
+	escrever 'Qual o valor do lado B do retangulo?';
+	ler b;
+
+	calcula_area;
+
+
+fim.
+
+modulo calcula_area;
+[[
+	se a = 0 ou b = 0 entao 
+	[[
+		soma <- a*b;
+	escrever 'Area = ';
+	escrever soma;
+	]]
+	senao
+		escrever 'Lado nao pode ser Nulo';
+
+]];
+
+
+

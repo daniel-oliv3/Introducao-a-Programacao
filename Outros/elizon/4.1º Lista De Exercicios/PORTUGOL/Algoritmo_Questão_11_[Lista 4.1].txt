@@ -1,0 +1,24 @@
+Algoritmo Questão 11 [Lista 4.1]
+
+	declare n,x,cont,k,1,fat:inteiro
+	declare s:real
+	s<-0;cont<-1;
+
+	escreva( " Informe os valores: " );
+	leia(n,x);
+	se(n>0 e x>0)entao
+	fat<-1;
+	para i de 1 ate n faca
+	fat<-fat*k;
+	fimpara
+	se (i%2=0)entao
+	s<s-(x**cont)/fat;
+	senao
+	s<-s+(x**cont)/fat
+	fimse
+	cont<-cont+2;
+	fimpara
+	escreva( " O resulta sera: ",s );
+	fimse
+fimalgoritmo
+	

@@ -1,0 +1,42 @@
+Algoritmo_Questão_14_[Lista 4.1]
+
+	declare op,n,k,fat,expo:inteiro;
+	repita
+	escereva( " Informe O Numero De Termos:  " );
+	leia(n);
+	escreva( " Informe a opcao: " );
+	leia(op);
+	se(op>0 e op<4)entao
+	escolha(op)
+		caso 1: 
+			fat <- 1;
+			para k<-1 ate n faca
+			fat<-fat*k;
+			fimpara
+			escreva( " Fatorial de ",n,"e = ",fat );
+		caso 2: 
+			pot<-1;
+			escreva( " Informe o expoente: " );
+			leia(expo)
+			para k<-1 ate expo faca
+			pot<pot*k;
+			fimpra
+			escreva( " A Potencia sera: ",pot );
+		caso 3:  
+			ant1<-0; ant2<-1;
+			para k<- 1 ate n faca
+			escreva( ant1+ant2 );
+			ant1<-ant2;
+			ant2<-ant1+ant2;
+			fimpara
+			escreva("O resultado de Fibonacci: ",Ant2);
+			fimescolha
+			senao se(op<>0)
+			escreva( " Digitacao Invalida... " );
+			senao
+			escreva( " Encerrar programa " );
+			fimse
+			fimse
+			ate que(op=0)
+			fimalgoritmo
+			fimse

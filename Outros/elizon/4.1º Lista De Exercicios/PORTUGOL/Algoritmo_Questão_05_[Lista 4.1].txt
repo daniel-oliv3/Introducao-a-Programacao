@@ -1,0 +1,21 @@
+Algoritmo_Questão_05_[Lista 4.1]
+	
+	declare a,a1,a2,nt,i:inteiro;
+	
+	escreva( " Informe um numero: " );
+	leia(nt);
+	escreva( " Informe Os Primeiros Termos:  " );
+	leia(a1,a2);
+	escreva(a1," - ",a2);
+	para i de 1 ate nt faca
+	se (i%2=0)entao
+	a<-a2-a1;
+	senao
+	a<-a2+a1;
+	fimse	
+	a1<-a2
+	a2<-a;
+	escreva( " - ",a );
+	fimpara
+	fimalgoritmo
+	

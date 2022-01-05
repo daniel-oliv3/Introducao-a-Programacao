@@ -1,0 +1,23 @@
+Algoritmo_Questão_09_[Lista 4.1]
+
+	declare n,r,cont,i:inteiro;
+	declare s:real;
+	s<-0;   cont<-1;
+
+	escreva( " Informe os valores:  " );
+	leia(n,r);
+	
+	se (n>0 e r>0)entao
+
+	para i<-2 ate n passo 1 faca
+	s<-s+(r**cont)/cont;
+	cont<-cont+1;
+	fimpara
+	escreva( " O resultado sera: ",s +1);
+	senao se( n=0 )
+	escreva( " Resultado: " s)
+	fimse
+	senao
+	escreva( " Valor Invalido! " );
+	fimse
+	fimalgoritmo
